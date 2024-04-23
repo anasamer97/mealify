@@ -1,0 +1,1209 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Navbar Section Starts */
+
+.navbar-fixed {
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+}
+
+.navbar-fixed .logo h1 {
+    margin: 0px 0px 15px 15px;
+}
+
+.navbar-fixed .logo h1::after {
+    content: '.';
+    color: red;
+
+}
+
+.navbar-fixed .menu-items ul {
+    margin: 15px;
+
+}
+
+
+.navbar-fixed .menu-items ul li {
+    margin: 15px 0px;
+}
+
+
+.navbar-fixed .darkmode-btn {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 25px;
+
+}
+
+/* Navbar Section Ends */
+
+/* Hero Section Starts */
+.home-hero-section {
+    background-color: #eeeeee8c;
+}
+
+
+.home-hero-section .hero-image-plate {
+    width: 80%;
+    margin: auto;
+}
+
+.home-hero-section .hero-image-plate img {
+    width: 100%;
+    margin-top: 30px;
+    padding: 50px;
+
+}
+
+.home-hero-section .hero-image-plate img:hover {
+    animation: shake 1s infinite;
+
+}
+
+.home-hero-section .caption .heading-food-text {
+    text-align: center;
+    margin: 15px;
+    color: #37373f;
+}
+
+.home-hero-section .caption .heading-food-text h2 {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: bolder;
+    font-size: 4.0625rem;
+}
+
+.home-hero-section .caption .heading-food-subtext {
+    text-align: center;
+    margin: 15px;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #4f4f5a;
+}
+
+.home-hero-section .caption .heading-food-buttons {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+
+}
+
+
+
+.home-hero-section .caption .heading-food-buttons .book-table {
+    padding: 0.625rem 1.5625rem;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 84%, 44%);
+    border-radius: 50vh;
+    font-size: 0.9375rem;
+    border-width: 0.125rem;
+}
+
+
+.home-hero-section .caption .heading-food-buttons button {
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+.home-hero-section .caption .heading-food-buttons .watch-video {
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: 0px;
+    background-color: transparent;
+    transition: all 0.4s;
+}
+
+
+.home-hero-section .caption .heading-food-buttons .book-table {
+    transition: all 0.4s;
+}
+
+.home-hero-section .caption .heading-food-buttons .book-table:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.home-hero-section .caption .heading-food-buttons .watch-video:hover {
+    color: rgb(255, 0, 0);
+}
+
+
+.home-hero-section .caption .heading-food-buttons .watch-video i {
+    /* border: 1px solid grey; */
+    border-radius: 50%;
+    padding: 12px;
+    background-color: white;
+}
+
+.home-hero-section .caption .heading-food-buttons .watch-video .icon {
+    background: rgb(207, 18, 18);
+    background: linear-gradient(90deg, rgba(207, 18, 18, 1) 50%, rgba(255, 255, 255, 0) 50%);
+    padding: 8px;
+    border-radius: 50%;
+
+}
+
+/* Hero Section Ends */
+
+/* Chefs Section Starts */
+
+.container {
+    width: 80%;
+    margin: 15px auto;
+    /* padding: 15px; */
+}
+
+.chef-cards-layer,
+.icon-collections,
+.icon-collections span {
+    display: none;
+}
+
+.container .chefs-section {
+    text-align: center;
+}
+
+.container .chefs-section .heading-chefs-text {
+    margin: 20px 0px;
+    padding: 20px 0px;
+
+}
+
+
+.container .chefs-section .heading-chefs-text p {
+    text-transform: uppercase;
+    color: #7f7f90;
+}
+
+.container .chefs-section .gallary-chefs-cards p {
+    color: #7f7f90;
+
+}
+
+.container .chefs-section .heading-chefs-text h2 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+}
+
+
+.container .chefs-section .heading-chefs-text h2 span {
+    font-family: "Amatic SC", sans-serif;
+    color: rgb(255, 0, 0);
+
+}
+
+
+
+.gallary-chefs-cards .card-one .chef-one,
+.gallary-chefs-cards .card-two .chef-two,
+.gallary-chefs-cards .card-three .chef-three {
+    width: 100%;
+}
+
+
+
+.gallary-chefs-cards .card-one .chef-one img,
+.gallary-chefs-cards .card-two .chef-two img,
+.gallary-chefs-cards .card-three .chef-three img {
+    width: 100%;
+}
+
+.gallery-section .gallery-container .img-cards .layer {
+    display: none;
+}
+
+.gallary-chefs-cards .card {
+    box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.1);
+    margin: 30px 0px;
+    width: 100%;
+}
+
+.container .chefs-section h3,
+.container .chefs-section p {
+    margin: 10px 0px;
+}
+
+/* Chefs Section Ends */
+
+/* Gallery Section Starts */
+
+.gallery-section {
+    background-color: #eee;
+    padding: 10px;
+}
+
+.gallery-section .gallery-container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+
+.gallery-secion-container .caption-text {
+    padding: 30px;
+    text-align: center;
+}
+
+.gallery-secion-container .caption-text p {
+    color: #7f7f90;
+    text-transform: uppercase;
+}
+
+.gallery-secion-container .caption-text h3 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+}
+
+
+.gallery-secion-container .caption-text h3 span {
+    color: rgb(255, 0, 0);
+    font-family: "Amatic SC", sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+}
+
+
+.gallery-section .img {
+    width: 100%;
+    margin: 20px 0px;
+    box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+}
+
+
+
+.gallery-section .img img {
+    width: 100%;
+    padding: 5px;
+}
+
+/* Gallery Section Ends */
+
+/* Contact Section Starts */
+
+
+.contact-section {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+
+.contact-section .caption-text p {
+    color: #7f7f90;
+    text-transform: uppercase;
+}
+
+.contact-section .caption-text h3 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.contact-section .caption-text h3 span {
+    color: rgb(255, 0, 0);
+    font-family: "Amatic SC", sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.contact-section .contact-us-details-cards {
+    text-align: left;
+    margin: 20px 0px;
+}
+
+.contact-section .contact-us-details-cards h3 {
+    color: #7d7d7d;
+}
+
+
+
+.contact-us-details-cards .contact i {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background-color: #CE1212;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact-section .contact-us-details-cards .contact {
+    border: 1px solid grey;
+    margin: 12px 0px;
+    padding: 15px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+form {
+    padding: 15px;
+    box-shadow: 0 0 1.875rem #00000014;
+}
+
+form input {
+    padding: 10px;
+    margin: 12px;
+    border: 1px solid hsl(0, calc(0% + 10%), calc(100% - 10%));
+
+}
+
+form textarea {
+    padding: 0.9375rem 0.9375rem;
+    border: 1px solid hsl(0, calc(0% + 10%), calc(100% - 10%));
+    margin: 12px;
+}
+
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+form button {
+    margin: 12px;
+    padding: 0.625rem 1.5625rem;
+    color: hsl(0, 0%, 100%);
+    background-color: #E61414;
+    border-radius: 50vh;
+    font-size: 0.9375rem;
+    display: block;
+    width: fit-content;
+    margin: auto;
+
+}
+
+/* Contact Section Ends */
+
+
+
+/* Footer Section Starts */
+
+.footer-section {
+    font-family: "Inter", sans-serif;
+}
+
+.footer-container a {
+    color: white;
+}
+
+.footer-container {
+    width: 75%;
+    margin: 30px auto 0px;
+}
+
+.footer-section {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-section .header-text {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    padding-top: 30px;
+}
+
+
+.footer-section .header-text h3 {
+    font-size: 27px;
+}
+
+.social-media-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media-links h3 {
+    border-bottom: 2px solid #ddd6;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 22px;
+}
+
+.social-media-links .group-icons i {
+    font-size: 27px;
+    width: 15%;
+    margin: 12px;
+}
+
+.social-media-links .group-icons {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+
+.header-text h3::after {
+    content: '.';
+    color: red;
+}
+
+.footer-section .header-text .meal-icon {
+    width: 7%;
+}
+
+.footer-section .header-text .meal-icon img {
+    width: 100%;
+    display: inline-block;
+}
+
+
+.subscription-newsletter {
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+.subscription-newsletter input {
+    width: 68%;
+    padding: 8px;
+}
+
+.subscription-newsletter button {
+    padding: 8px;
+    width: 29%;
+    color: white;
+    background-color: #E61414;
+}
+
+.quick-links i {
+    padding: 0px 5px;
+}
+
+.quick-links h3 {
+    margin: 0px 0px 8px 0px;
+}
+
+.quick-links ul li {
+    width: 50%;
+    padding: 5px 0px;
+}
+
+.quick-links ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quick-links ul li {
+    transition: all 300ms;
+}
+
+.quick-links ul li:hover {
+    background-color: lightslategrey;
+    padding-left: 15px;
+}
+
+
+.get-in-touch h3 {
+    margin: 10px 0px;
+}
+
+
+.get-in-touch i {
+    font-size: 22px;
+    color: #CE1212;
+    margin: 8px 8px 0px 0px;
+}
+
+/* Footer Section Ends */
+
+
+
+/* Tablet View */
+
+@media screen and (min-width: 768px) {
+
+
+
+    /* Gallary Chefs Section */
+
+    .gallary-chefs-cards .card {
+        width: 48%;
+    }
+
+    .gallary-chefs-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+
+    }
+
+
+    .chef-cards-layer,
+    .icon-collections,
+    .icon-collections span {
+        display: block;
+    }
+
+
+
+    .gallary-chefs-cards .chef-one,
+    .gallary-chefs-cards .chef-two,
+    .gallary-chefs-cards .chef-three {
+        position: relative;
+    }
+
+
+    .gallary-chefs-cards .chef-one .chef-cards-layer,
+    .gallary-chefs-cards .chef-two .chef-cards-layer,
+    .gallary-chefs-cards .chef-three .chef-cards-layer {
+        position: absolute;
+        width: 50px;
+        height: 90px;
+        top: 100px;
+        right: 15px;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+
+
+    .gallary-chefs-cards .chef-one .chef-cards-layer .icon-collections,
+    .gallary-chefs-cards .chef-two .chef-cards-layer .icon-collections,
+    .gallary-chefs-cards .chef-three .chef-cards-layer .icon-collections {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff4d;
+        transform: translateX(100%);
+        transition: all 0.5s;
+    }
+
+
+    .gallary-chefs-cards .chef-one .chef-cards-layer .icon-collections span,
+    .gallary-chefs-cards .chef-two .chef-cards-layer .icon-collections span,
+    .gallary-chefs-cards .chef-three .chef-cards-layer .icon-collections span {
+        margin: 12px;
+    }
+
+
+    .gallary-chefs-cards .chef-one .chef-cards-layer .icon-collections span i,
+    .gallary-chefs-cards .chef-two .chef-cards-layer .icon-collections span i,
+    .gallary-chefs-cards .chef-three .chef-cards-layer .icon-collections span i {
+        transition: color 600ms;
+        color: #37373f66;
+
+    }
+
+
+    .gallary-chefs-cards .chef-one .chef-cards-layer .icon-collections span i:hover,
+    .gallary-chefs-cards .chef-two .chef-cards-layer .icon-collections span i:hover,
+    .gallary-chefs-cards .chef-three .chef-cards-layer .icon-collections span i:hover {
+        color: black;
+    }
+
+
+    .chefs-section .gallary-chefs-cards .card {
+        transition: all 0.4s;
+    }
+
+
+    .chefs-section .gallary-chefs-cards .card:hover {
+        transform: scale(1.11);
+    }
+
+
+
+    .chefs-section .gallary-chefs-cards .card:hover .chef-cards-layer {
+        opacity: 1;
+    }
+
+
+
+    .chefs-section .gallary-chefs-cards .card:hover .icon-collections {
+        transform: translateX(0%);
+    }
+
+
+
+
+    /* Food Gallary Section */
+
+    .gallery-secion-container .img-cards {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .gallery-section .gallery-container .img-cards .layer {
+        display: none;
+    }
+
+
+
+    .gallery-secion-container .img-cards .img {
+        width: 50%;
+    }
+
+    .gallery-secion-container .img-cards .img-4 {
+        height: 300px;
+    }
+
+
+    .gallery-secion-container .img-cards .img-6 {
+        height: 200px;
+    }
+
+
+    /* Contact Us Section */
+
+    .contact-us-details-cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .contact-us-details-cards .contact {
+        width: 48%;
+    }
+
+
+
+    /* Footer Section */
+
+    .footer-container {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+
+
+@media screen and (min-width: 992px) {
+
+
+    /* Hero section */
+
+    .home-hero-section {
+        display: flex;
+    }
+
+    .home-hero-section .caption {
+        order: -1;
+    }
+
+    /* Chefs section */
+
+
+    .chef-cards-layer,
+    .icon-collections,
+    .icon-collections span {
+        display: block;
+    }
+
+
+    .gallary-chefs-cards {
+        gap: 15px;
+    }
+
+    .chefs-section .gallary-chefs-cards .card:hover {
+        transform: scale(1.11);
+    }
+
+    .gallary-chefs-cards .chef-one,
+    .gallary-chefs-cards .chef-two,
+    .gallary-chefs-cards .chef-three {
+        position: relative;
+    }
+
+
+    .gallary-chefs-cards .chef-one .chef-cards-layer,
+    .gallary-chefs-cards .chef-two .chef-cards-layer,
+    .gallary-chefs-cards .chef-three .chef-cards-layer {
+        position: absolute;
+        width: 50px;
+        height: 90px;
+        top: 100px;
+        right: 15px;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+
+
+    .gallary-chefs-cards .chef-one .chef-cards-layer .icon-collections,
+    .gallary-chefs-cards .chef-two .chef-cards-layer .icon-collections,
+    .gallary-chefs-cards .chef-three .chef-cards-layer .icon-collections {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff4d;
+        transform: translateX(100%);
+        transition: all 0.5s;
+    }
+
+
+    .gallary-chefs-cards .chef-one .chef-cards-layer .icon-collections span,
+    .gallary-chefs-cards .chef-two .chef-cards-layer .icon-collections span,
+    .gallary-chefs-cards .chef-three .chef-cards-layer .icon-collections span {
+        margin: 12px;
+    }
+
+
+    .gallary-chefs-cards .chef-one .chef-cards-layer .icon-collections span i,
+    .gallary-chefs-cards .chef-two .chef-cards-layer .icon-collections span i,
+    .gallary-chefs-cards .chef-three .chef-cards-layer .icon-collections span i {
+        transition: color 600ms;
+        color: #37373f66;
+
+    }
+
+
+    .gallary-chefs-cards .chef-one .chef-cards-layer .icon-collections span i:hover,
+    .gallary-chefs-cards .chef-two .chef-cards-layer .icon-collections span i:hover,
+    .gallary-chefs-cards .chef-three .chef-cards-layer .icon-collections span i:hover {
+        color: black;
+    }
+
+
+    .chefs-section .gallary-chefs-cards .card {
+        transition: all 0.4s;
+    }
+
+
+    .chefs-section .gallary-chefs-cards .card:hover {
+        transform: scale(1.11);
+    }
+
+
+
+    .chefs-section .gallary-chefs-cards .card:hover .chef-cards-layer {
+        opacity: 1;
+    }
+
+
+
+    .chefs-section .gallary-chefs-cards .card:hover .icon-collections {
+        transform: translateX(0%);
+    }
+
+
+
+
+    /* Food gallary section */
+
+    .gallery-secion-container .img-cards {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 200vh;
+    }
+
+
+    .gallary-chefs-cards .card {
+        width: 31%;
+        gap: 30px;
+        transition: all 0.4s;
+    }
+
+
+    /* Food items gallary section */
+
+    /* Trying flexbox masonry */
+
+    .gallery-section .gallery-container .img-cards .img {
+        width: 33.33%;
+        position: relative;
+        overflow: hidden;
+    }
+
+
+    .gallery-section .gallery-container .img-cards .img-1 {
+        height: 176px;
+    }
+
+
+    .gallery-section .gallery-container .img-cards .img-2 {
+        height: 176px;
+    }
+
+    .gallery-section .gallery-container .img-cards .img-4 {
+        height: 260px;
+    }
+
+
+    .gallery-section .img-cards .img .layer {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.75);
+        transform: translateY(100%);
+        overflow: hidden;
+        text-align: center;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery-section .img-cards .img:hover .layer {
+        transform: translateY(0);
+        transition: all 0.4s;
+    }
+
+
+
+    /* Footer section styling */
+
+    .quick-links ul li {
+        transition: all 300ms;
+    }
+
+    .quick-links ul li:hover {
+        background-color: lightslategrey;
+        padding-left: 15px;
+    }
+}
+
+
+
+
+/* Desktop View */
+@media screen and (min-width: 1200px) {
+
+    /* Navbar Stying Starts */
+
+
+
+
+
+    .navbar-fixed {
+        display: flex;
+        text-align: center;
+    }
+
+
+    /* display: block ; Because it was display: none ; in other screen sizes  */
+    .chef-cards-layer,
+    .icon-collections,
+    .icon-collections span {
+        display: block;
+    }
+
+    .navbar-fixed .logo {
+        width: 20%;
+        margin-top: 15px;
+    }
+
+    .home-active {
+        border-bottom: 3px solid #CE1212;
+    }
+
+    .navbar-fixed .menu-items {
+        width: 60%;
+    }
+
+    .navbar-fixed .darkmode-btn {
+        width: 20%;
+        margin-top: 25px;
+    }
+
+
+    .navbar-fixed .menu-items ul {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+
+    .navbar-fixed .menu-items .navbar-ul .border-bottom-layer-list-item {
+        position: relative;
+    }
+
+    .navbar-fixed .menu-items .navbar-ul .border-bottom-layer-list-item:hover .border-bottom-layer {
+        transform: translateX(0%);
+        opacity: 1;
+        background-color: rgb(255, 0, 0);
+    }
+
+
+    .navbar-fixed .menu-items .navbar-ul .border-bottom-layer {
+        position: absolute;
+        bottom: 0;
+        height: 2px;
+        width: 100%;
+        content: "";
+        background-color: rgba(219, 9, 9, 0);
+        transform: translateX(-25%);
+        transition: all 400ms;
+    }
+
+    /* Navbar Stying Ends */
+
+
+    /* Home Hero Section Styling Starts */
+
+    .home-hero-section {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .home-hero-section .hero-image-plate {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-hero-section .hero-image-plate img {
+        width: 65%;
+    }
+
+    /* Home Hero Section Styling Ends */
+
+
+    /* Chefs Section Styling Starts */
+
+    .gallary-chefs-cards {
+        display: flex;
+        gap: 30px;
+    }
+
+    .gallary-chefs-cards .chef-one,
+    .gallary-chefs-cards .chef-two,
+    .gallary-chefs-cards .chef-three {
+        position: relative;
+    }
+
+
+    .gallary-chefs-cards .chef-one .chef-cards-layer,
+    .gallary-chefs-cards .chef-two .chef-cards-layer,
+    .gallary-chefs-cards .chef-three .chef-cards-layer {
+        position: absolute;
+        width: 50px;
+        height: 90px;
+        top: 100px;
+        right: 15px;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+
+
+    .gallary-chefs-cards .chef-one .chef-cards-layer .icon-collections,
+    .gallary-chefs-cards .chef-two .chef-cards-layer .icon-collections,
+    .gallary-chefs-cards .chef-three .chef-cards-layer .icon-collections {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff4d;
+        transform: translateX(100%);
+        transition: all 0.5s;
+    }
+
+
+    .gallary-chefs-cards .chef-one .chef-cards-layer .icon-collections span,
+    .gallary-chefs-cards .chef-two .chef-cards-layer .icon-collections span,
+    .gallary-chefs-cards .chef-three .chef-cards-layer .icon-collections span {
+        margin: 12px;
+    }
+
+
+    .gallary-chefs-cards .chef-one .chef-cards-layer .icon-collections span i,
+    .gallary-chefs-cards .chef-two .chef-cards-layer .icon-collections span i,
+    .gallary-chefs-cards .chef-three .chef-cards-layer .icon-collections span i {
+        transition: color 600ms;
+        color: #37373f66;
+
+    }
+
+
+    .gallary-chefs-cards .chef-one .chef-cards-layer .icon-collections span i:hover,
+    .gallary-chefs-cards .chef-two .chef-cards-layer .icon-collections span i:hover,
+    .gallary-chefs-cards .chef-three .chef-cards-layer .icon-collections span i:hover {
+        color: black;
+    }
+
+
+    .chefs-section .gallary-chefs-cards .card {
+        transition: all 0.4s;
+    }
+
+
+    .chefs-section .gallary-chefs-cards .card:hover {
+        transform: scale(1.11);
+    }
+
+
+
+    .chefs-section .gallary-chefs-cards .card:hover .chef-cards-layer {
+        opacity: 1;
+    }
+
+
+
+    .chefs-section .gallary-chefs-cards .card:hover .icon-collections {
+        transform: translateX(0%);
+    }
+
+
+
+    .gallery-section .gallery-container .img-cards {
+        display: block;
+        columns: 3;
+    }
+
+
+
+    .gallery-section .gallery-container .img-cards .img {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .gallery-section .img-cards .img .layer {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.75);
+        transform: translateY(100%);
+        overflow: hidden;
+        text-align: center;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .gallery-section .img-cards .img:hover .layer {
+        transform: translateY(0);
+        transition: all 0.4s;
+    }
+
+
+    /* Fixed height for Masonry layout */
+
+    .gallery-section .img-cards .img .w-270 {
+        height: 270px;
+    }
+
+    .gallery-section .img-cards .img .w-400 {
+        height: 400px;
+    }
+
+
+    /* Gallery Section Ends */
+
+    /* Contact Us Section Starts */
+
+
+    .contact-us-details-cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact-us-details-cards .contact {
+        width: 49.7%;
+    }
+
+    /* Contact Us Section Ends */
+
+
+    /* Footer Section Styling Starts */
+
+    .footer-container {
+        width: 95%;
+        margin: auto;
+    }
+
+    .social-media-links {
+        display: flex;
+    }
+
+
+
+    /* Quick links styling */
+
+    .quick-links ul li {
+        transition: all 300ms;
+    }
+
+    .quick-links ul li:hover {
+        background-color: lightslategrey;
+        padding-left: 15px;
+    }
+
+
+    /* Footer Section Styling Ends */
+
+}
+
+
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
