@@ -59,7 +59,7 @@ a {
 
 
 .home-hero-section .hero-image-plate {
-    width: 80%;
+    width: 50%;
     margin: auto;
 }
 
@@ -169,7 +169,7 @@ a {
 /* Chefs Section Starts */
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: 15px auto;
     /* padding: 15px; */
 }
@@ -533,6 +533,44 @@ form button {
 }
 
 /* Footer Section Ends */
+
+
+/* Handling mobile view */
+
+@media screen and (max-width: 767px) {
+    .navbar-fixed .menu-items {
+        display: none;
+    }
+
+    .navbar-fixed .logo {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .navbar-fixed .logo h1 {
+        margin: 0px;
+    }
+
+    .darkmode-btn {
+        display: none;
+    }
+
+    .home-hero-section .hero-image-plate {
+        width: 100%;
+    }
+
+    .home-hero-section .hero-image-plate img {
+        width: 100;
+        margin-top: 30px;
+        padding: 0px 15px;
+    }
+
+    .container {
+        width: 90%;
+        margin: 15px auto;
+        /* padding: 15px; */
+    }
+}
 
 
 
@@ -984,7 +1022,7 @@ form button {
 
     .gallary-chefs-cards {
         display: flex;
-        gap: 30px;
+        gap: 20px;
     }
 
     .gallary-chefs-cards .chef-one,
